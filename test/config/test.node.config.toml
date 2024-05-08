@@ -60,7 +60,7 @@ GlobalQueue = 1024
 	MaxConns = 200
 
 [Etherman]
-URL = "http://zkevm-mock-l1-network:8545"
+URL = "http://124.243.137.251:8888"
 ForkIDChunkSize = 20000
 MultiGasProvider = false
 	[Etherscan]
@@ -121,7 +121,7 @@ StateConsistencyCheckInterval = "5s"
 		Port = 6900
 		Filename = "/datastreamer/datastream.bin"
 		Version = 1
-		ChainID = 1337
+		ChainID = 9000
 		Enabled = true
 
 [SequenceSender]

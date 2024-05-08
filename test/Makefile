@@ -569,7 +569,7 @@ run: ## Runs a full node
 	$(RUNSTATEDB)
 	$(RUNPOOLDB)
 	$(RUNEVENTDB)
-	$(RUNL1NETWORK)
+#	$(RUNL1NETWORK)
 	sleep 1
 	$(RUNZKPROVER)
 	$(RUNAPPROVE)
